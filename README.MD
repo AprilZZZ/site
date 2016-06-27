@@ -7,10 +7,12 @@
 
 ###master
 В ветке master находится текущее стабильное состояние проэкта. Иными словами, это live-версия.
-Ветки с фичами
+
+###Ветки с фичами
 В ветках с фичами программисты и верстальщики занимаются непосредственно программированием и версткой. В идеале на отдельную фичу нужно заводить отдельную ветку. Имя ветки по возможности должно совпадать с номером тикета в Redmine (например, 1245). Ветки с фичами должны создаваться на основе ветки master.
 Коммиты в ветку с фичей должны сопровождаться комментарием в следующем формате:
-Capitalized, short (50 chars or less) summary
+
+`Capitalized, short (50 chars or less) summary
 
 More detailed explanatory text, if necessary.  Wrap it to about 72
 characters or so.  In some contexts, the first line is treated as the
@@ -19,7 +21,8 @@ line separating the summary from the body is critical (unless you omit
 the body entirely); tools like rebase can get confused if you run the
 two together.
 
-[re #1234]
+[re #1234]`
+
 Все коммиты должны относиться к задаче на Redmine, поэтому в секции "detailed explanatory text" коммита нужно обязательно писать [re #xxxx], чтобы этот коммит автоматически к задаче привязался. Номер задачи — это мета-информация о коммите, поэтому не нужно его писать прямо в summary. Секция summary должна содержать краткое описание изменений, которые произошли в коммите. Фраза должна быть сформулирована в повелительном наклонении. Например, "Add reviews link to product page", или "Send email to customer after purchase".
 Не подходят фразы типа "Product page", или "Code review", потому что по ним нельзя сказать, какие изменения были внесены в код.
 
