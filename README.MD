@@ -13,15 +13,15 @@
 Коммиты в ветку с фичей должны сопровождаться комментарием в следующем формате:
 
 `Capitalized, short (50 chars or less) summary`
-
-More detailed explanatory text, if necessary.  Wrap it to about 72
-characters or so.  In some contexts, the first line is treated as the
-subject of an email and the rest of the text as the body.  The blank
-line separating the summary from the body is critical (unless you omit
-the body entirely); tools like rebase can get confused if you run the
-two together.
-
-[re #1234]`
+``
+`More detailed explanatory text, if necessary.  Wrap it to about 72`
+`characters or so.  In some contexts, the first line is treated as the`
+'subject of an email and the rest of the text as the body.  The blank`
+'line separating the summary from the body is critical (unless you omit`
+'the body entirely); tools like rebase can get confused if you run the`
+'two together.`
+''
+'[re #1234]`
 
 Все коммиты должны относиться к задаче на Redmine, поэтому в секции "detailed explanatory text" коммита нужно обязательно писать [re #xxxx], чтобы этот коммит автоматически к задаче привязался. Номер задачи — это мета-информация о коммите, поэтому не нужно его писать прямо в summary. Секция summary должна содержать краткое описание изменений, которые произошли в коммите. Фраза должна быть сформулирована в повелительном наклонении. Например, "Add reviews link to product page", или "Send email to customer after purchase".
 Не подходят фразы типа "Product page", или "Code review", потому что по ним нельзя сказать, какие изменения были внесены в код.
