@@ -12,7 +12,7 @@
 В ветках с фичами программисты и верстальщики занимаются непосредственно программированием и версткой. В идеале на отдельную фичу нужно заводить отдельную ветку. Имя ветки по возможности должно совпадать с номером тикета в Redmine (например, 1245). Ветки с фичами должны создаваться на основе ветки master.
 Коммиты в ветку с фичей должны сопровождаться комментарием в следующем формате:
 
-`Capitalized, short (50 chars or less) summary
+`Capitalized, short (50 chars or less) summary`
 
 More detailed explanatory text, if necessary.  Wrap it to about 72
 characters or so.  In some contexts, the first line is treated as the
